@@ -88,9 +88,12 @@ function App() {
         </div>
         <div className="weather">{weather.weather[0].main}</div>
         <div className="desc">
-        <div>{weather.weather[0].description}</div>
+        <div>Wind : {Math.round(weather.wind.speed*3.6)} kmph</div>
         <div>Humidity : {weather.main.humidity}%</div>
         <div>Feels like : {Math.round(weather.main.feels_like)}°c</div>
+        <div>Cloudiness : {weather.clouds.all}%</div>
+        <div> {weather.weather.icon}</div>
+
       </div>
       </div>
           </div>
