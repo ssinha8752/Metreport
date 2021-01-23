@@ -65,7 +65,7 @@ function App() {
         :('app')
     }>
     <main>
-      <div style={{color:"black", fontWeight:700, fontSize:"40px", textAlign:"center"}}>METEROLOGICAL REPORT APPLICATION</div>
+      <div style={{color:"white", fontWeight:1000, fontSize:"40px", textAlign:"center"}}>METEROLOGICAL REPORT APPLICATION</div>
       <div className="search-box">
         <input
           type="text"
