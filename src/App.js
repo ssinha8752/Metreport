@@ -65,11 +65,12 @@ function App() {
         :('app')
     }>
     <main>
+      <div style={{color:"black", fontWeight:700, fontSize:"40px", textAlign:"center"}}>METEROLOGICAL REPORT APPLICATION</div>
       <div className="search-box">
         <input
           type="text"
           className="search-bar"
-          placeholder="Search..."
+          placeholder="Type the place here..."
           onChange = {e => setQuery(e.target.value)}
           value={query}
           onKeyPress={search}         
@@ -98,7 +99,8 @@ function App() {
       </div>
           </div>
         ):('')}
-          
+      
+    <div style={{color:"white", textAlign:"center", marginTop:"33%"}}>Made with ❤ by Shubham</div>    
     </main>
     </div>
   );
