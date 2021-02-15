@@ -100,7 +100,7 @@ function App() {
           </div>
         ):('')}
       
-    <div style={{color:"white", textAlign:"center", marginTop:"33%"}}>Made with ❤ by Shubham</div>    
+    <div style={{color:"white", textAlign:"center", marginTop:"33%"}}>Made by Shubham &copy;</div>    
     </main>
     </div>
   );
